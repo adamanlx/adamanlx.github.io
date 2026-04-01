@@ -1,0 +1,16 @@
+---
+layout: default
+css: articles
+---
+
+<p id="all-articles-link"><a href="/articles">All posts</a></p>
+
+{% for post in site.posts %}
+    {% if post.categories contains page.category %}
+        <section class="post">
+            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            {{ post.excerpt }}
+            <p><a href="{{ post.url }}">Continue reading &rarr;</a></p>
+        </section>
+    {% endif %}
+{% endfor %}

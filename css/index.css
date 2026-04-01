@@ -1,0 +1,17 @@
+img {
+	float: right;
+	padding-left: 12px;
+	width: 256px;
+}
+
+@media (max-width: 640px) {
+	img {
+		width: 192px;
+	}
+}
+
+@media (max-width: 384px) {
+	img {
+		width: 96px;
+	}
+}

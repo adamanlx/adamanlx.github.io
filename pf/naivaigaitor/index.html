@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>nAIvAIgAItor</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+        <style type="text/css">
+            body {
+                font-family: Inter;
+                background-color: #f6f6f6;
+                color: #333;
+                text-align: center;
+            }
+
+            h1 {
+                font-weight: bold;
+                text-shadow: 2px 2px 4px #aaa;
+            }
+
+            h2 {
+                color: #666;
+            }
+
+            input, button {
+                all: unset;
+                background-color: white;
+                padding: 15px;
+                text-align: left;
+                text-shadow: none;
+                border-radius: 100px;
+                box-shadow: 2px 2px 2px 2px #eee;
+                transition: background-color 0.25s, transform 0.25s;
+            }
+
+            button:hover {
+                background-color: #d1f7fc;
+                cursor: pointer;
+                transform: scale(1.01);
+            }
+
+            #results {
+                display: none;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>nAIvAIgAItor</h1>
+        <h2>Oh <em>now</em> I've shoehorned AI into something too many times?</h2>
+
+        <div id="start">
+        <p>Enter someplace you'd like to go.</p>
+
+        <p>We'll ✨guess✨ what you actually meant and take you there! Hope that place still exists!</p>
+
+        <p><input placeholder="Location"> <button id="takemethere">✨ Take me there</button></p>
+        </div>
+
+        <div id="results">
+        <p id="instructions"></p>
+        <p><img id="img"></img></p>
+        <p><button id="notthereyet">I'm not there yet</button></p>
+        </div>
+
+        <script>
+            var takemethere = document.getElementById("takemethere");
+            var start = document.getElementById("start");
+            var results = document.getElementById("results");
+            var notthereyet = document.getElementById("notthereyet");
+            var instructions = document.getElementById("instructions");
+            var img = document.getElementById("img");
+
+            function randomizeInstructions() {
+                const directions = ["Go this way.", "You should try going this way.", "Start over and go this way this time.", "Go that way.", "Go in this direction.", "Go this way twice.", "Go this way until you get tired.", "Go this way unless you have toll roads turned off.", "Go this way until your phone runs out of battery.", "Go this way because AI is always right.", "Go this way because we said so ✨.", "Ignore the last instruction and go this way instead.", "Undo what I just told you to do and then go this way.", "Go this way. If you die or something we're not responsible.", "Go this way, and if you injure yourself it's your fault, not ours.", "Go this way because we're always right."];
+                instructions.innerHTML = directions[Math.floor(Math.random() * directions.length)];
+                img.src = (Math.floor(Math.random() * 9) + 1) + ".png";
+            }
+
+            takemethere.onclick = function () {
+                start.style.display = "none";
+                results.style.display = "block";
+                randomizeInstructions();
+            }
+
+            
+            notthereyet.onclick = function () {
+                randomizeInstructions();
+            }
+        </script>
+    </body>
+</html>

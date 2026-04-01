@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Copy-and-paster</title>
+		<meta charset="utf/8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+		<style type="text/css">
+			.entry {
+				font-size: 1.5rem;
+                margin-bottom: 1rem;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Application copy-and-paster</h1>
+		<p><input placeholder="Add something..." id="input"></input> <button id="button">Add</button></p>
+		<section id="list"></section>
+		<script>
+			const input = document.getElementById("input");
+			const button = document.getElementById("button");
+			const section = document.getElementById("list");
+
+			var list = [];
+
+			function renderList() {
+			section.innerHTML = "";
+			
+			for (const [i, entry] of list.entries()) {
+				const div = document.createElement('div');
+				div.className = 'entry';
+				const span = document.createElement('span');
+				span.innerHTML = entry + " ";
+				span.onclick = function() {
+				navigator.clipboard.writeText(entry);
+				}
+				const button = document.createElement('button');
+				button.innerHTML = 'X';
+				button.onclick = function() { list.splice(i, 1); renderList(); }
+				
+				div.appendChild(span);
+				div.appendChild(button);
+				section.appendChild(div);
+			}
+			}
+
+			button.onclick = function() {
+			list.push(input.value);
+			renderList();
+			}
+		</script>
+	</body>
+</html>

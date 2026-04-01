@@ -1,0 +1,11 @@
+url: "http://theycallmezeal.me"
+
+# Build settings
+markdown: kramdown
+
+collections:
+  posts:
+    permalink: /article/:title
+  categories:
+    output: true
+    permalink: /blog/:title

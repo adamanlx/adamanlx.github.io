@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Adam An, linguist - {{page.title}}</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+		<link href="/css/style.css" rel="stylesheet" media="screen">
+		{% if page.css %}
+			{% for stylesheet in page.css %}
+				<link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+			{% endfor %}
+		{% endif %}
+		{% if layout.css %}
+			{% for stylesheet in layout.css %}
+				<link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+			{% endfor %}
+		{% endif %}
+	</head>
+	<body>
+		<header>
+				<div id="navskip"><a href="#title">Skip to main content</a></div>
+				<h1><a href="/index">Adam An</a></h1>
+				<nav id="main-nav">
+					<ul>
+						<li><a href="/cv">CV</a></li>
+						<li><a href="/publications">PUBLICATIONS</a></li>
+						<li><a href="/blog">BLOG</a></li>
+					</ul>
+				</nav>
+		</header>
+		
+		<main>
+			<section id="title">
+				<h1>{{page.title}}</h1>
+				{% if page.collection == 'posts' %}
+					<h2 id="date">{{ page.date | date: '%B %d, %Y' }}</h2>
+				{% endif %}
+				{% if page.subtitle %}
+					<h2>{{page.subtitle}}</h2>
+				{% endif %}
+				<hr>
+			</section>
+			<section id="content">{{content}}</section>
+		</main>
+	</body>
+</html>

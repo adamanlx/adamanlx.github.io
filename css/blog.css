@@ -1,0 +1,28 @@
+#content > * + * {
+    margin-top: 4rem;
+}
+
+.post > * + * {
+    margin-top: 0.5rem;
+}
+
+nav#category-nav p {
+    float: left;
+}
+
+#categories {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#categories li:not(:last-child):after {
+    content: "|";
+    padding-left: 1rem;
+}
+
+#all-articles-link {
+    text-align: center;
+}
