@@ -1,0 +1,12 @@
+img {
+    height: 150px;
+}
+
+.border {
+    border: dashed 2px black;
+}
+
+.bigger {
+    height: 300px;
+    background-color: white;
+}
