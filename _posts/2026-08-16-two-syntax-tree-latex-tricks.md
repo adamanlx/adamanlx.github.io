@@ -3,6 +3,7 @@ layout: default
 title: Two syntax tree LaTeX tricks
 css: "2026-08-16"
 categories:
+    - academia
     - linguistics
 ---
 
