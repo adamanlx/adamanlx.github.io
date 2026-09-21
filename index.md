@@ -6,7 +6,7 @@ css: index
 
 ![Adam An](./images/me.png)
 
-My [name](name) is Adam An [ædəm æn] (he/him). I'm a linguist at the University of Kansas where I am completing a PhD in linguistics and a Master's in computer science.
+My [name](name) is Adam An [ædəm æn] (he/him). I'm a linguist, software engineer, and PhD student at the University of Kansas.
 
 I work on morphosyntax, language variation and change, documentation, and revitalization. My current projects include:
 
