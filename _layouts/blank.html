@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{page.title}}</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+		{% if page.css %}
+			{% for stylesheet in page.css %}
+				<link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+			{% endfor %}
+		{% endif %}
+		{% if layout.css %}
+			{% for stylesheet in layout.css %}
+				<link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+			{% endfor %}
+		{% endif %}
+	</head>
+	<body>{{content}}</body>
+</html>

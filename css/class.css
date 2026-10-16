@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+body {
+    width: 80%;
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+}
+
+code {
+    background-color: #efefef;
+}
