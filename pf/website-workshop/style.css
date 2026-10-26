@@ -1,0 +1,394 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+:root {
+    --gray11: #646464;
+    --gray12: #424242;
+    --gray13: #202020;
+    --mauve11: #65636d;
+    --mauve12: #434149;
+    --mauve13: #211f26;
+    --slate11: #60646c;
+    --slate12: #3e4248;
+    --slate13: #1c2024;
+    --sage11: #5f6563;
+    --sage12: #3c4340;
+    --sage13: #1a211e;
+    --olive11: #60655f;
+    --olive12: #3e433d;
+    --olive13: #1d211c;
+    --sand11: #63635e;
+    --sand12: #42413d;
+    --sand13: #21201c;
+    --tomato11: #cc3314;
+    --tomato12: #872a17;
+    --tomato13: #5c271f;
+    --red11: #ce2c31;
+    --red12: #931f27;
+    --red13: #641723;
+    --ruby11: #ca244d;
+    --ruby12: #921c39;
+    --ruby13: #64172b;
+    --crimson11: #cb1d63;
+    --crimson12: #8c1848;
+    --crimson13: #621639;
+    --pink11: #c2298a;
+    --pink12: #8d1c65;
+    --pink13: #651249;
+    --plum11: #953ea3;
+    --plum12: #742b80;
+    --plum13: #53195d;
+    --purple11: #8145b5;
+    --purple12: #60328a;
+    --purple13: #402060;
+    --violet11: #6550b9;
+    --violet12: #4a3b8c;
+    --violet13: #2f265f;
+    --iris11: #5753c6;
+    --iris12: #3f3e94;
+    --iris13: #272962;
+    --indigo11: #3a5bc7;
+    --indigo12: #2c4491;
+    --indigo13: #1f2d5c;
+    --blue11: #0d6fc5;
+    --blue12: #0f5094;
+    --blue13: #113264;
+    --cyan11: #10758e;
+    --cyan12: #0d5668;
+    --cyan13: #0d3c48;
+    --teal11: #007a6a;
+    --teal12: #06564d;
+    --teal13: #0d3d38;
+    --jade11: #1e7b62;
+    --jade12: #1c5948;
+    --jade13: #1d3b31;
+    --green11: #1f7a53;
+    --green12: #1a563d;
+    --green13: #193b2d;
+    --grass11: #2a7e3b;
+    --grass12: #22582d;
+    --grass13: #203c25;
+    --brown11: #815e46;
+    --brown12: #5f483a;
+    --brown13: #3e332e;
+    --bronze11: #7d5e54;
+    --bronze12: #60473f;
+    --bronze13: #43302b;
+    --gold11: #71624b;
+    --gold12: #564b3b;
+    --gold13: #3b352b;
+    --sky11: #00749e;
+    --sky12: #0d5473;
+    --sky13: #1d3e56;
+    --mint11: #027864;
+    --mint12: #0c5549;
+    --mint13: #16433c;
+    --lime11: #58762d;
+    --lime12: #3d521e;
+    --lime13: #37401c;
+    --yellow11: #946500;
+    --yellow12: #6d500f;
+    --yellow13: #473b1f;
+    --amber11: #a35f00;
+    --amber12: #764814;
+    --amber13: #4f3422;
+    --orange11: #bd4800;
+    --orange12: #82360d;
+    --orange13: #582d1d;
+}
+
+body {
+    font-family: Inter, serif;
+    width: 35ch;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    font-family: inherit;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+}
+
+#gray {
+    background-color: var(--gray11);
+    border-color: var(--gray13);
+}
+
+#gray:hover {
+    background-color: var(--gray12);
+}
+
+#mauve {
+    background-color: var(--mauve11);
+    border-color: var(--mauve13);
+}
+
+#mauve:hover {
+    background-color: var(--mauve12);
+}
+
+#slate {
+    background-color: var(--slate11);
+    border-color: var(--slate13);
+}
+
+#slate:hover {
+    background-color: var(--slate12);
+}
+
+#sage {
+    background-color: var(--sage11);
+    border-color: var(--sage13);
+}
+
+#sage:hover {
+    background-color: var(--sage12);
+}
+
+#olive {
+    background-color: var(--olive11);
+    border-color: var(--olive13);
+}
+
+#olive:hover {
+    background-color: var(--olive12);
+}
+
+#sand {
+    background-color: var(--sand11);
+    border-color: var(--sand13);
+}
+
+#sand:hover {
+    background-color: var(--sand12);
+}
+
+#tomato {
+    background-color: var(--tomato11);
+    border-color: var(--tomato13);
+}
+
+#tomato:hover {
+    background-color: var(--tomato12);
+}
+
+#red {
+    background-color: var(--red11);
+    border-color: var(--red13);
+}
+
+#red:hover {
+    background-color: var(--red12);
+}
+
+#ruby {
+    background-color: var(--ruby11);
+    border-color: var(--ruby13);
+}
+
+#ruby:hover {
+    background-color: var(--ruby12);
+}
+
+#crimson {
+    background-color: var(--crimson11);
+    border-color: var(--crimson13);
+}
+
+#crimson:hover {
+    background-color: var(--crimson12);
+}
+
+#pink {
+    background-color: var(--pink11);
+    border-color: var(--pink13);
+}
+
+#pink:hover {
+    background-color: var(--pink12);
+}
+
+#plum {
+    background-color: var(--plum11);
+    border-color: var(--plum13);
+}
+
+#plum:hover {
+    background-color: var(--plum12);
+}
+
+#purple {
+    background-color: var(--purple11);
+    border-color: var(--purple13);
+}
+
+#purple:hover {
+    background-color: var(--purple12);
+}
+
+#violet {
+    background-color: var(--violet11);
+    border-color: var(--violet13);
+}
+
+#violet:hover {
+    background-color: var(--violet12);
+}
+
+#iris {
+    background-color: var(--iris11);
+    border-color: var(--iris13);
+}
+
+#iris:hover {
+    background-color: var(--iris12);
+}
+
+#indigo {
+    background-color: var(--indigo11);
+    border-color: var(--indigo13);
+}
+
+#indigo:hover {
+    background-color: var(--indigo12);
+}
+
+#blue {
+    background-color: var(--blue11);
+    border-color: var(--blue13);
+}
+
+#blue:hover {
+    background-color: var(--blue12);
+}
+
+#cyan {
+    background-color: var(--cyan11);
+    border-color: var(--cyan13);
+}
+
+#cyan:hover {
+    background-color: var(--cyan12);
+}
+
+#teal {
+    background-color: var(--teal11);
+    border-color: var(--teal13);
+}
+
+#teal:hover {
+    background-color: var(--teal12);
+}
+
+#jade {
+    background-color: var(--jade11);
+    border-color: var(--jade13);
+}
+
+#jade:hover {
+    background-color: var(--jade12);
+}
+
+#green {
+    background-color: var(--green11);
+    border-color: var(--green13);
+}
+
+#green:hover {
+    background-color: var(--green12);
+}
+
+#grass {
+    background-color: var(--grass11);
+    border-color: var(--grass13);
+}
+
+#grass:hover {
+    background-color: var(--grass12);
+}
+
+#brown {
+    background-color: var(--brown11);
+    border-color: var(--brown13);
+}
+
+#brown:hover {
+    background-color: var(--brown12);
+}
+
+#bronze {
+    background-color: var(--bronze11);
+    border-color: var(--bronze13);
+}
+
+#bronze:hover {
+    background-color: var(--bronze12);
+}
+
+#gold {
+    background-color: var(--gold11);
+    border-color: var(--gold13);
+}
+
+#gold:hover {
+    background-color: var(--gold12);
+}
+
+#sky {
+    background-color: var(--sky11);
+    border-color: var(--sky13);
+}
+
+#sky:hover {
+    background-color: var(--sky12);
+}
+
+#mint {
+    background-color: var(--mint11);
+    border-color: var(--mint13);
+}
+
+#mint:hover {
+    background-color: var(--mint12);
+}
+
+#lime {
+    background-color: var(--lime11);
+    border-color: var(--lime13);
+}
+
+#lime:hover {
+    background-color: var(--lime12);
+}
+
+#yellow {
+    background-color: var(--yellow11);
+    border-color: var(--yellow13);
+}
+
+#yellow:hover {
+    background-color: var(--yellow12);
+}
+
+#amber {
+    background-color: var(--amber11);
+    border-color: var(--amber13);
+}
+
+#amber:hover {
+    background-color: var(--amber12);
+}
+
+#orange {
+    background-color: var(--orange11);
+    border-color: var(--orange13);
+}
+
+#orange:hover {
+    background-color: var(--orange12);
+}
