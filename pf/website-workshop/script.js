@@ -479,11 +479,11 @@ for (i in buttons) {
         let color = button.id;
         let gray = grays[color];
         for (number = 1; number <= 13; number++) {
-            textarea.textContent += "--color" + number + ": " + colors[color + number] + "\n";
+            textarea.textContent += "--color" + number + ": " + colors[color + number] + ";\n";
         }
 
         for (number = 1; number <= 13; number++) {
-            textarea.textContent += "--gray" + number + ": " + colors[gray + number] + "\n";
+            textarea.textContent += "--gray" + number + ": " + colors[gray + number] + ";\n";
         }
     }
 }
