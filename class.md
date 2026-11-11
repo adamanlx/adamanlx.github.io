@@ -10,27 +10,52 @@ This document is **under construction** and nothing is final.
 
 This is the course website for Programming for Researchers. All course updates will be posted here or sent directly to your KU email.
 
-**Instructor:** [Adam An](https://theycallmezeal.me) [aan@ku.edu](mailto:aan@ku.edu), supervised by TBD
+**Instructor:** [Adam An](https://theycallmezeal.me) [aan@ku.edu](mailto:aan@ku.edu), supervised by Lacey Wade [laceywade@ku.edu](mailto:laceywade@ku.edu)
 
-**Time and place:** Thursdays 4-5:30 pm. Class will not be held every week; note the dates of each class meeting. I'll send an email if the course schedule suddenly changes. Location TBD.
+**Credit hours:** 1.
+
+**Time and place:** Thursdays 4-5:30 pm, location TBD.
 
 **Office hours:** TBD.
 
 <details markdown=1>
 
-<summary><strong>The work / course policies</strong> (click to expand)</summary>
+<summary><strong>Course policies</strong> (click to expand)</summary>
 
-* Homework (weeks 1-6): graded for completion; 50%
-* Final project: 45%
-* Participation: 5%
+Your grade will consist of the following three components, *weighted equally*:
 
-A grade of 65% or above will earn a pass. Attendance will not be formally taken but will be rolled into your participation grade.
+* Homework
+* Final project
+* Participation
+
+Homework will be graded for completion and is due before the next class begins. For example, homework from the January 21 class is due before 4pm on January 28. Late work is not accepted without a written excuse.
+
+Students are expected to attend all lectures in person. Attendance will not be formally taken but will be rolled into your participation grade. Please email me in advance of any absences.
+
+The grading scheme is below. I reserve the right to adjust grade thresholds at my discretion. Adjustments will be in your favor; I may lower thresholds but I will not raise them. To earn a passing grade in the class overall, you must earn above 60% on both your homework and your final project individually.
+
+|Grade|Average ≥|
+|-|-|
+|A|93|
+|A-|90|
+|B+|87|
+|B|83|
+|B-|80|
+|C+|77|
+|C|73|
+|C-|70|
+|D+|67|
+|D|63|
+|D-|60|
+|F|0|
+
+Use of large language models is allowed if disclosed. However, the homework is designed to be completable by hand, and you'll learn more if you do so.
+
+Collaboration is allowed as long as it is a) disclosed and b) follows the "empty-hand" policy. You are allowed to discuss your work with other students and show others your code. You are not allowed to leave a discussion with code "in hand," including copy-and-pasting other students' code, taking pictures of other students' code, or writing down other students' code.
 
 I will not record lectures but the course notes will capture a portion of class content. Bring your computer for in-class programming exercises.
 
-Homework prompts are vague on purpose. You'll have to make decisions about how a useful program should behave. Programming is the most learn-by-doing thing ever, and investing an hour or two each week outside of class will be worth it. AI use is allowed, but homework is designed to be completable by hand, and you'll learn more if you do so.
-
-In the latter half of this class, we will take tiny "bites" of topics of student interest. Building expertise in these skills will take more than the one hour we have for each week's topic. If you want these skills for your research or your resume, I'll help you make a game plan for how you can continue learning after the class wraps.
+In the final few weeks of this class, we will take tiny "bites" of topics of student interest. Building expertise in these skills will take more than the three total hours we will spend in this portion of the course. If you want these skills for your research or your resume, I recommend talking to me early. I'll help you make a game plan for how you can continue learning after the class wraps.
 
 </details>
 
@@ -38,29 +63,35 @@ In the latter half of this class, we will take tiny "bites" of topics of student
 
 ## Schedule and homework
 
-### Week 1: Variables, operators, data types, `print()`
+### January 21: Variables, operators, data types, `print()`
 
 Install Python and VSCode. Be able to open a terminal in VSCode and successfully run the command `python -v`. Submit a screenshot of VSCode and write a brief introduction about yourself, your research, and what you want to learn. Later class meetings will cover topics of student interest.
 
-### Week 2: The command line, conditionals, and `input()`
+### January 28: The command line, conditionals, and `input()`
 
 Think about a set of decisions you make in your daily life and model them using the new techniques from class. Incorporate numbers, strings, and nested conditionals. Submit the Python file.
 
-### Week 3: Lists and loops
+Homework prompts are vague on purpose. You'll have to make decisions about how a useful program should behave, and there is no "one solution."
 
-By today at the latest I will have released a complete plan for the second half of the semester.
+### February 4: Lists and loops
+
+By today at the latest I will have released a complete plan for the last three meetings of the semester.
 
 Make a Python version of [Wordle](https://hellowordl.net/). Submit the Python file.
 
-### Week 4: File input/output, csv, command-line arguments
+### February 18: File input/output, csv, command-line arguments
 
-Write a script that takes in a `.txt` file, sorts the lines alphabetically, capitalizes each line, and puts the results in a new `.txt` file. Then modify your script to work with `.csv` files as well. Submit the Python file and two files, one `.txt` and one `.csv`, that work with your Python script.
+Write a script that takes in a `.txt` file, sorts the lines alphabetically, capitalizes each line, and puts the results in a new `.txt` file. Allow the names of the input and output files to be specified via command-line arguments, and provide a default output file name if none is provided. Then modify your script to work with `.csv` files as well. Submit the Python file and two files, one `.txt` and one `.csv`, that work with your Python script.
 
-### Week 5: Git
+Begin thinking about final project ideas.
+
+### February 25: Git
 
 Install git and make a GitHub or GitLab account. Create a repository and push several commits to it. Submit a link to your repository. Make sure it's public. If you can open an incognito tab and view your repository, you're good to go.
 
-### Week 6: Dictionaries and functions
+Submit two or three final project ideas.
+
+### March 4: Dictionaries and functions
 
 Make a Python version of an ATM. Allow users to create accounts, sign in and out of accounts, and deposit and withdraw money. Come up with two or three new features and implement them. Hint: use a dictionary to associate account names with account balances.
 
@@ -68,12 +99,12 @@ Think carefully about things a user should *not* be allowed to do, like withdraw
 
 Look for chances to put reused code in functions. Create a git repository for your ATM and push regularly with informative, imperative commit messages. Submit a link to your repository.
 
-This larger-than-usual assignment asks you to synthesize all the fundamentals. You got this!
+This is our homework grand finale. You'll have to synthesize all the fundamentals. You got this!
 
-### Week 7: Learning to learn: documentation
+### March 11: Learning to learn: documentation
 
-Continue looking up topics of interest. Submit two or three final project ideas.
+Begin working on your final project.
 
 ### Looking ahead: Topics of student interest
 
-TBD. For the rest of the semester, we will spend one week on each topic. Only work on the homework if the topic interests you. Begin working on your final project. At our final class, we'll present our final projects and have a party :)
+I anticipate there being three more class sessions: April 1, April 8, and {April 22 or 29}. Keep working on your final project. At our final class, we'll present our final projects and have a party :)
