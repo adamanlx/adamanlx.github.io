@@ -57,6 +57,8 @@ I will not record lectures but the course notes will capture a portion of class 
 
 In the final few weeks of this class, we will take tiny "bites" of topics of student interest. Building expertise in these skills will take more than the three total hours we will spend in this portion of the course. If you want these skills for your research or your resume, I recommend talking to me early. I'll help you make a game plan for how you can continue learning after the class wraps.
 
+The Student Access Center (SAC) coordinates academic accommodations and services for all eligible KU students with disabilities. If you have a disability for which you wish to request accommodations and have not contacted SAC, please do so as soon as possible. They are located in 22 Strong Hall and can be reached at 785-864-4064 (V/TTY). Information about their services can be found at [access.ku.edu](https://access.ku.edu). Please contact me privately in regard to your needs in this course.
+
 </details>
 
 **Course notes:** TBD.
