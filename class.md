@@ -10,7 +10,7 @@ This document is **under construction** and nothing is final.
 
 This is the course website for Programming for Researchers. All course updates will be posted here or sent directly to your KU email.
 
-**Instructor:** [Adam An](https://theycallmezeal.me) [aan@ku.edu](mailto:aan@ku.edu), supervised by Lacey Wade [laceywade@ku.edu](mailto:laceywade@ku.edu)
+**Instructor:** [Adam An](https://theycallmezeal.me) [aan@ku.edu](mailto:aan@ku.edu), supervised by Lacey Wade [laceywade@ku.edu](mailto:laceywade@ku.edu).
 
 **Credit hours:** 1.
 
@@ -28,11 +28,13 @@ Your grade will consist of the following three components, *weighted equally*:
 * Final project
 * Participation
 
+Graduate students will be graded by Lacey Wade. Undergraduate students will be graded by Adam An.
+
 Homework will be graded for completion and is due before the next class begins. For example, homework from the January 21 class is due before 4pm on January 28. Late work is not accepted without a written excuse.
 
-Students are expected to attend all lectures in person. Attendance will not be formally taken but will be rolled into your participation grade. Please email me in advance of any absences.
+Students are expected to attend all classes in person and have a laptop for in-class programming exercises. Participation means coming to class, being prepared with a laptop, speaking in every class, and being respectful and professional. Please email me in advance of any absences. Halfway through the semester, if your in-class participation is at risk of bringing your grade down, I'll let you know.
 
-The grading scheme is below. I reserve the right to adjust grade thresholds at my discretion. Adjustments will be in your favor; I may lower thresholds but I will not raise them. To earn a passing grade in the class overall, you must earn above 60% on both your homework and your final project individually.
+The grading scheme is below. I may adjust grade thresholds at my discretion. Adjustments will be in your favor; I may lower thresholds but I will not raise them. To earn a passing grade in the class overall, you must earn above 60% on both your homework and your final project individually.
 
 |Grade|Average ≥|
 |-|-|
