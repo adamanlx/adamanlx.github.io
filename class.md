@@ -89,13 +89,13 @@ Write a script that takes in a `.txt` file, sorts the lines alphabetically, capi
 
 Begin thinking about final project ideas.
 
-### February 25: Git
+### March 4 or 11: Git
 
 Install git and make a GitHub or GitLab account. Create a repository and push several commits to it. Submit a link to your repository. Make sure it's public. If you can open an incognito tab and view your repository, you're good to go.
 
 Submit two or three final project ideas.
 
-### March 4: Dictionaries and functions
+### March 18: Dictionaries and functions
 
 Make a Python version of an ATM. Allow users to create accounts, sign in and out of accounts, and deposit and withdraw money. Come up with two or three new features and implement them. Hint: use a dictionary to associate account names with account balances.
 
@@ -105,10 +105,10 @@ Look for chances to put reused code in functions. Create a git repository for yo
 
 This is our homework grand finale. You'll have to synthesize all the fundamentals. You got this!
 
-### March 11: Learning to learn: documentation
+### March 25: Learning to learn: documentation
 
 Begin working on your final project.
 
 ### Looking ahead: Topics of student interest
 
-I anticipate there being three more class sessions: April 1, April 8, and {April 22 or 29}. Keep working on your final project. At our final class, we'll present our final projects and have a party :)
+There will be three more class sessions: April 8, April 15, and {April 22 or 29}. Keep working on your final project. At our final class, we'll present our final projects and have a party :)
