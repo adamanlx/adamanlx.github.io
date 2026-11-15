@@ -32,6 +32,8 @@ Graduate students will be graded by Lacey Wade. Undergraduate students will be g
 
 Homework will be graded for completion and is due before the next class begins. For example, homework from the January 21 class is due before 4pm on January 28. Late work is not accepted without a written excuse.
 
+The final project is graded for completion. Completing the final project entails submitting code and presenting on the last day of class.
+
 Students are expected to attend all classes in person and have a laptop for in-class programming exercises. Participation means coming to class, being prepared with a laptop, speaking in every class, and being respectful and professional. Please email me in advance of any absences. Halfway through the semester, if your in-class participation is at risk of bringing your grade down, I'll let you know.
 
 The grading scheme is below. I may adjust grade thresholds at my discretion. Adjustments will be in your favor; I may lower thresholds but I will not raise them. To earn a passing grade in the class overall, you must earn above 60% on both your homework and your final project individually.
