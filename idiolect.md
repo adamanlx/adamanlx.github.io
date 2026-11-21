@@ -24,7 +24,7 @@ Given how reduced my vocalic inventory is before [l], it's perhaps surprising th
 
 ## Lexical / syntactic variation
 
-For me, *with yall* is most felicitously contracted into []. I also really hate spelling it *y'all* with the apostrophe. *Y'all* feels so corporate for some reason.
+For me, *with yall* is most felicitously contracted into [wɪtʃɑl]. I also really hate spelling it *y'all* with the apostrophe. *Y'all* feels so corporate for some reason.
 
 If I've already used *yall* in a sentence I tend to re-refer to the group with *you.*
 
