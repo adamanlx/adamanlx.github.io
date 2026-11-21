@@ -6,7 +6,7 @@ css: index
 
 ![Adam An](./images/me.png)
 
-My [name](name) is Adam An [ædəm æn] (he/him). I'm a linguist, software engineer, and PhD student at the University of Kansas.
+My [name](name) is Adam An [ædəm æn] (he/him). I'm a linguist, software engineer, PhD student, and NSF Graduate Research Fellow at the University of Kansas.
 
 I work on morphosyntax, language variation and change, documentation, and revitalization. My current projects include:
 
@@ -21,4 +21,4 @@ I work on morphosyntax, language variation and change, documentation, and revita
 
 **Bluesky:** [@adamanlx.bsky.social](https://bsky.app/profile/adamanlx.bsky.social)
 
-[More about me](about)
+[More about me](about) and [my idiolect](idiolect)
