@@ -9,7 +9,7 @@ title: Publications
 
 [Preprint (PDF)](/pub/2026-syntax-preprint.pdf)
 
-### Variation and Change in Kinyarwanda TAM-Marking *ra-* (2026)
+### Variation and change in Kinyarwanda TAM-Marking *ra-* (2026)
 
 With Jean Paul Ngoboka.
 
