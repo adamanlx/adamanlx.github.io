@@ -15,6 +15,8 @@ With Jean Paul Ngoboka.
 
 [Preprint (PDF)](/pub/2026-socio-preprint.pdf)
 
+[Supplemental data (Github)](https://github.com/adamanlx/ra-variation-2026)
+
 ## Conference Presentations
 
 ### Variation in Kinyarwanda *ra-* (2026)
