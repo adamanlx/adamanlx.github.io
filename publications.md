@@ -5,6 +5,10 @@ title: Publications
 
 ## Publications
 
+### The Kinyarwanda conjoint / disjoint alternation reflects syntactically backgrounded information (2026)
+
+[Preprint (PDF)](/pub/2026-syntax-preprint.pdf)
+
 ### Variation and Change in Kinyarwanda TAM-Marking *ra-* (2026)
 
 With Jean Paul Ngoboka.
