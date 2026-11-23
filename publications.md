@@ -13,7 +13,7 @@ title: Publications
 
 With Jean Paul Ngoboka.
 
-[Preprint (PDF)](/pub/ra-variation-2026-preprint-2026-11-15.pdf)
+[Preprint (PDF)](/pub/2026-socio-preprint.pdf)
 
 ## Conference Presentations
 
